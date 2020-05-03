@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "reviews"
+version = "0.1.0"
+description = "comics reviews"
+authors = ["karthik <karthikkannan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.2"
+Flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.14.0"
+black = {version = "^19.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
