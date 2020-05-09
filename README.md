@@ -3,6 +3,8 @@
 ### Installation Steps
 
 #### System Setup
+`brew install dbmate`
+
 `brew install pyenv`
 
 `pyenv install 3.8.2`
